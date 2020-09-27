@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: url(./images/mastehead.jpg) no-repeat center / cover;
+    height: 900px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    padding: 5px 0 0 5px;
+}
+
+nav h1 {
+    padding-left: 5px;
+    font-family: 'Lobster', Arial;
+}
+
+nav img {
+    width: 30px;
+}
+
+.header_container-title {
+    height: 500px;
+    padding-left: 500px;
+}
+
+.header_container-title h2 {
+    font-size: 50px;
+    font-weight: 100;
+}
+
+.header_container-title p {
+    width: 400px;
+    font-size: 13px;
+    padding-top: 10px;
+}
+
+#intro {
+    margin: 0 auto;
+    width: 60%;
+}
+
+#intro .intro-img {
+    position: relative;
+    height: 100px;
+}
+
+#intro .intro-img img {
+    position: absolute;
+    width: 600px;
+    right: 0px;
+    bottom:-70px;
+}
+
+#intro .intro_text {
+    display: flex;
+    justify-content: space-between;
+}
+
+#intro h3 {
+    font-family: Lobster, Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+#intro .intro_text p {
+    padding-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    font-size: 14px;
+    color: #8a8282;
+    width: 700px;
+}
+
+#intro .intro_text .second_p {
+    padding-top: 50px;
+    padding-left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-align: justify;
+    color: #8a8282;
+    width: 700px;
+}
+
+#table {
+    margin: 0 auto;
+    width: 60%;
+    padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#table .table_red {
+    background-color: #f4979f;
+    width: 33%;
+    height: 250px;
+    padding: 40px;
+    position: relative;
+}
+
+#table .table_purple {
+    background-color: #605f7f;
+    width: 33%;
+    height: 250px;
+    padding: 40px;
+    position: relative;
+}
+
+#table .table_picture1 {
+    background: url(./images/box-bg.jpg) center / cover;
+    width: 33%;
+    height: 250px;
+    padding: 40px;
+    position: relative;
+}
+
+#table .table_picture2 {
+    background: url(./images/box-bg-lg.jpg) center / cover;
+    width: 66%;
+    height: 250px;
+    padding: 40px;
+    position: relative;
+}
+
+#table .table_green {
+    background-color: #80bf96;
+    width: 33%;
+    height: 250px;
+    padding: 40px;
+    position: relative;
+}
+
+#table a {
+    font-weight: 800;
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    bottom: 40px;
+}
+
+#table h4 {
+    font-size: 30px;
+    color: white;
+    font-family: Lobster, Arial;
+}
+
+#table p {
+    color: white;
+    font-size: 14px;
+    padding-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
