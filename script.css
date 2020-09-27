@@ -184,7 +184,7 @@ nav img {
     color: #8a8282;
 }
 
-#details p {
+#details p, #reasons-to-get-onboard p {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
     color: #8a8282;
@@ -228,3 +228,22 @@ nav img {
     position: absolute;
     bottom: 170px;
 }
+
+#reasons-to-get-onboard {
+    margin: 0 auto;
+    width: 60%;
+    padding-top: 50px;
+}
+
+#reasons-to-get-onboard .reasons-to-get-onboard {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    border: 3px solid black;
+}
+
+#reasons-to-get-onboard .Web-based2 p, .Team-login p, .Web-Support p {
+    padding: 15px 30px 0 0;
+}
+
+/* JE COMPRENDS PO JONAIMARRE */
