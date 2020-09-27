@@ -67,7 +67,7 @@ nav img {
     justify-content: space-between;
 }
 
-#intro h3 {
+#intro h3, #details h3 {
     font-family: Lobster, Arial, Helvetica, sans-serif;
     font-size: 30px;
 }
@@ -158,4 +158,35 @@ nav img {
     font-size: 14px;
     padding-top: 10px;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+#details {
+    margin: 0 auto;
+    width: 60%;
+    padding-top: 50px;
+}
+
+#details .details {
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#details .web-based, .performance, .cultural, .sustainability {
+    padding: 15px 15px 15px 0;
+}
+
+#details h5 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #8a8282;
+}
+
+#details p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #8a8282;
+    padding-top: 20px;
+    line-height: 20px;
 }
