@@ -338,14 +338,14 @@ nav img {
     padding: 0 30px 0 30px;
 }
 
-.team-plan { /*POURQUOI CA MARCHE PAS ?*/
+.team-plan {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     padding: 0 30px 0 30px;
 }
 
-.logos img {
+.logos svg { /*URGH*/
     width: 40px;
     padding-left: 5px;
     fill: grey;
