@@ -68,7 +68,7 @@ nav img {
     justify-content: space-between;
 }
 
-#intro h3, #details h3, #reasons-to-get-onboard h3 {
+#intro h3, #details h3, #reasons-to-get-onboard h3, #purchase .h3 {
     font-family: Lobster, Arial, Helvetica, sans-serif;
     font-size: 30px;
 }
@@ -265,4 +265,88 @@ nav img {
     text-align: justify;
     padding-top: 20px;
     line-height: 20px;
+}
+
+#purchase .purchase {
+    margin: 0 auto;
+    width: 60%;
+    height: 350px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#purchase .purchase {
+    display: flex;
+    justify-content: space-between;
+}
+
+#purchase .purchase .team-plan {
+    box-shadow: 0 0 15px black;
+    border-radius: 10px;
+}
+
+.button-mostpopular {
+    background-color: tomato;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    font-size: 12px;
+    font-family: monospace; /* à changer */
+    text-transform: uppercase;
+    font-weight: 600;
+    width: 100px;
+    text-align: center;
+}
+
+.button-legacy {
+    background-color: gray;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    font-size: 12px;
+    font-family: monospace; /* à changer */
+    text-transform: uppercase;
+    font-weight: 600;
+    width: 80px;
+    text-align: center;
+}
+
+.button-buy-now {
+    background-color: green;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    font-size: 12px;
+    font-family: monospace; /* à changer */
+    text-transform: uppercase;
+    font-weight: 600;
+    width: 100px;
+    text-align: center;
+}
+
+#purchase p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #8a8282;
+    line-height: 20px;
+}
+
+.solo-plan {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 0 30px 0 30px;
+}
+
+.team-plan { /*POURQUOI CA MARCHE PAS ?*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 0 30px 0 30px;
+}
+
+.logos img {
+    width: 40px;
+    padding-left: 5px;
+    fill: grey;
 }
