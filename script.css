@@ -345,8 +345,80 @@ nav img {
     padding: 0 30px 0 30px;
 }
 
+.logos {
+    display: flex;
+}
+
 .logos svg { 
     width: 40px;
     padding-left: 5px;
     fill: grey;
+}
+
+footer {
+    background: rgb(34, 34, 71);
+    height: 600px;
+}
+
+.footer {
+    color: white;
+    margin: 0 auto;
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 100px;
+}
+
+.Get-in-touch, .Stay-in-touch, .Links {
+    width: 50%;
+    padding-bottom: 50px;
+}
+
+.Stay-in-touch {
+    padding-left: 50px;
+}
+
+.Links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Resources, .How-to, .Resources-2 {
+    display: flex;
+    flex-direction: column;
+}
+
+h6 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: white;
+    padding-bottom: 10px;
+}
+
+.footer p, footer a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: white;;
+    text-decoration: none;
+    line-height: 20px;
+}
+
+.Stay-in-touch p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: rgb(129, 129, 129);
+    padding-top: 5px;
+}
+
+input {
+    width: 90%;
+    height: 45px;
+    border-radius: 5px;
+}
+
+button {
+    width: 9%;
+    height: 45px;
+    background-color: rgb(188, 202, 164);
+    color: white;
 }
