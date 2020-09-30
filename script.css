@@ -7,27 +7,27 @@
 
 @font-face {
     font-family: "Open Sans";
-    src: url(./assets/OpenSans-Regular.ttf);
+    src: url(./assets/fonts/OpenSans-Regular.ttf);
 }
 
 @font-face {
     font-family: "Open Sans Bold";
-    src: url(./assets/OpenSans-Bold.ttf);
+    src: url(./assets/fonts/OpenSans-Bold.ttf);
 }
 
 @font-face {
     font-family: "Open Sans Italic";
-    src: url(./assets/OpenSans-Italic.ttf);
+    src: url(./assets/fonts/OpenSans-Italic.ttf);
 }
 
 @font-face {
     font-family: "Open Sans Light";
-    src: url(./assets/OpenSans-Light.ttf);
+    src: url(./assets/fonts/OpenSans-Light.ttf);
 }
 
 @font-face {
     font-family: "Open Sans SemiBold";
-    src: url(./assets/OpenSans-SemiBold.ttf);
+    src: url(./assets/fonts/OpenSans-SemiBold.ttf);
 }
 
 
@@ -59,7 +59,7 @@ nav {
 
 nav h1 {
     padding-left: 5px;
-    font-family: "Open Sans";
+    font-family: "Open Sans Italic";
     font-size: 22px;
 }
 
@@ -73,6 +73,7 @@ nav .anchor {
 
 nav .anchor a {
     text-align: center;
+    font-family: "Open Sans SemiBold";
     color: white;
     padding: 0 20px 0 20px;
     text-decoration: none;
@@ -90,6 +91,7 @@ nav .anchor a {
 
 nav .anchor a:hover {
     text-align: center;
+    font-family: "Open Sans SemiBold";
     padding: 0 20px 0 20px;
     text-decoration: none;
     text-transform: uppercase;
@@ -100,20 +102,22 @@ nav .anchor a:hover {
 
 .header_container-title {
     height: 100px;
-    padding-top: 400px;
-    padding-left: 400px;
+    padding-top: 450px;
+    padding-left: 390px;
 }
 
 .header_container-title h2 {
-    font-size: 50px;
+    font-size: 60px;
     font-weight: 100;
     font-family: "Open Sans";
 }
 
 .header_container-title p {
-    width: 400px;
+    width: 500px;
     font-size: 13px;
+    line-height: 20px;
     padding-top: 10px;
+    font-family: "Open Sans";
 }
 
 #intro {
@@ -138,15 +142,15 @@ nav .anchor a:hover {
     justify-content: space-between;
 }
 
-#intro h3, #details h3, #reasons-to-get-onboard h3, #purchase .h3 {
-    font-family: Lobster, Arial, Helvetica, sans-serif;
+#intro h3, #details h3, #reasons-to-get-onboard h3 {
+    font-family: "Open Sans Light";
     font-size: 30px;
 }
 
 #intro .intro_text p {
     padding-top: 20px;
     padding-right: 20px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Open Sans";
     font-size: 14px;
     line-height: 20px;
     color: #8a8282;
@@ -156,7 +160,7 @@ nav .anchor a:hover {
 #intro .intro_text .second_p {
     padding-top: 150px;
     padding-left: 20px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Open Sans";
     font-size: 14px;
     line-height: 20px;
     color: #8a8282;
@@ -214,6 +218,7 @@ nav .anchor a:hover {
 #table a {
     font-weight: 800;
     text-decoration: none;
+    font-family: "Open Sans SemiBold";
     color: white;
     position: absolute;
     bottom: 45px;
@@ -222,7 +227,7 @@ nav .anchor a:hover {
 #table h4 {
     font-size: 30px;
     color: white;
-    font-family: Lobster, Arial;
+    font-family: "Open Sans Light";
 }
 
 #table p {
@@ -230,7 +235,7 @@ nav .anchor a:hover {
     font-size: 13px;
     line-height: 20px;
     padding-top: 10px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Open Sans";
 }
 
 #details {
@@ -250,15 +255,15 @@ nav .anchor a:hover {
 }
 
 #details h5 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
+    font-family: "Open Sans SemiBold";
+    font-size: 12px;
     font-weight: 600;
     color: #8a8282;
 }
 
 #details p {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
+    font-family: "Open Sans";
+    font-size: 12px;
     color: #8a8282;
     padding-top: 20px;
     line-height: 20px;
@@ -283,18 +288,22 @@ nav .anchor a:hover {
 }
 
 .more-power h2 {
-    font-size: 50px;
+    font-size: 60px;
+    font-family: "Open Sans";
     font-weight: 100;
 }
 
 .more-power p {
     width: 400px;
     font-size: 13px;
+    line-height: 20px;
+    font-family: "Open Sans";
     padding-top: 10px;
 }
 
 #more-power a {
     font-weight: 800;
+    font-family: "Open Sans Bold";
     text-decoration: none;
     color: white;
     position: absolute;
@@ -325,8 +334,8 @@ nav .anchor a:hover {
 }
 
 #reasons-to-get-onboard .reasons-to-get-onboard-text h5, .Web-based2 h5, .Team-login h5, .Web-Support h5 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
+    font-family: "Open Sans";
+    font-size: 12px;
     font-weight: 600;
     color: white;;
 }
@@ -334,8 +343,8 @@ nav .anchor a:hover {
 #reasons-to-get-onboard .reasons-to-get-onboard-text p, .Web-based2 p, .Team-login p, .Web-Support p {
     padding: 15px 30px 0 0;
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
+    font-family: "Open Sans";
+    font-size: 12px;
     padding-top: 20px;
     line-height: 20px;
 }
@@ -364,10 +373,10 @@ nav .anchor a:hover {
     padding: 10px;
     color: white;
     font-size: 12px;
-    font-family: monospace; /* à changer */
+    font-family: "Open Sans SemiBold";
     text-transform: uppercase;
     font-weight: 600;
-    width: 100px;
+    width: 120px;
     text-align: center;
 }
 
@@ -377,7 +386,7 @@ nav .anchor a:hover {
     padding: 10px;
     color: white;
     font-size: 12px;
-    font-family: monospace; /* à changer */
+    font-family: "Open Sans SemiBold";
     text-transform: uppercase;
     font-weight: 600;
     width: 80px;
@@ -390,16 +399,21 @@ nav .anchor a:hover {
     padding: 10px;
     color: white;
     font-size: 12px;
-    font-family: monospace; /* à changer */
+    font-family: "Open Sans SemiBold";
     text-transform: uppercase;
     font-weight: 600;
-    width: 100px;
+    width: 120px;
     text-align: center;
 }
 
+#purchase .h3 {
+    font-family: "Open Sans SemiBold";
+    font-size: 30px;
+}
+
 #purchase p {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
+    font-family: "Open Sans";
+    font-size: 12px;
     color: #8a8282;
     line-height: 20px;
 }
@@ -462,14 +476,14 @@ footer {
 }
 
 h6 {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Open Sans";
     font-size: 12px;
     color: white;
     padding-bottom: 10px;
 }
 
 .footer p, footer a {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Open Sans";
     font-size: 12px;
     color: white;;
     text-decoration: none;
@@ -477,7 +491,7 @@ h6 {
 }
 
 .Stay-in-touch p {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Open Sans";
     font-size: 12px;
     color: rgb(129, 129, 129);
     padding-top: 5px;
